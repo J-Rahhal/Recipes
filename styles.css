@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Merriweather+Sans:ital,wght@1,300&family=Permanent+Marker&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,6 +27,9 @@ nav ul  {
     list-style: none;
 }
 
+.logo h3 {
+    font-family: 'Dancing script',sans-serif;
+}
 
 nav li a{
     padding-right: 50px ;
@@ -36,6 +41,10 @@ nav li a:hover {
     text-decoration: underline;
 }
 
+.main {
+    margin: 50px;
+}
+
 .main h1 {
     text-align: center;
     margin: 50px;
@@ -45,4 +54,8 @@ nav li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main-img img {
+    /* border: 2px solid white; */
 }
