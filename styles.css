@@ -4,58 +4,62 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 body {
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 100vh;
+    height: 100%;
+    overflow: hidden;
 }
 
-.header {
-    height:5vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: blue; */
-}
-
-nav ul  {
-    display: flex;
-    list-style: none;
-}
-
-.logo h3 {
-    font-family: 'Dancing script',sans-serif;
-}
-
-nav li a{
-    padding-right: 50px ;
-    color: white;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    text-decoration: underline;
-}
-
-.main {
-    margin: 50px;
-}
-
-.main h1 {
-    text-align: center;
-    margin: 50px;
-}
-
-.main-img {
+.bck-img {
+    background-image: url(/images/64406e71-francisco-galarza-r9xj7bgt5aw-unsplash-min.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main-img img {
-    /* border: 2px solid white; */
+.recipe {
+    height: 50vh;
+    width: 400px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.recipe-number{
+    height: 30vh;
+    width: 100%;
+}
+
+.recipe-number h2 {
+    margin: 50px 0 0 180px;
+    font-size: 100px;
+    color: purple;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 50px;
+}
+
+.content a {
+    color: rgb(242,185,64);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
 }
